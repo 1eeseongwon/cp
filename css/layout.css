@@ -132,3 +132,64 @@ aside {
 address p {
     text-align: center;
 }
+
+.login_tbl {
+    width: 600px;
+    margin: 0 auto;
+    border: 0
+}
+/* source order에 따른 스타일 우선순위 : 나중에 적어준 스타일이 우선함 */
+.login_tbl td {
+    border: 0
+}
+[for=login_id], [for=login_pw] {
+    display: inline-block;
+    width: 100px;
+    text-indent: 0;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: bold;
+}
+#login_id, #login_pw {
+    width: 300px;
+    text-indent: 1rem
+}
+.indent-0 {
+    text-indent: 0
+}
+#login {
+    height: 70px;
+    background:#ff862a
+}
+.text-center{
+    text-align: center;
+}
+.btn {
+    color:white;
+    padding: 5px 20px;
+}
+.round-btn {
+    border-radius: 10px;
+    background-color: lightgray;
+}
+.round-btn:hover {
+    background-color: #F46800;
+}
+.privacy1 {
+    display: none; /*던츄 쿨릭하면 보임*/
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 5px; rgba :(0, 0, 0, .4);
+    left: 50%;
+    top: 50;
+    transform: translate(-50%, -50%);
+    /* 수평 수직 위치 정중앙 배치*/
+    }
+
+    .privacy1 h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+    }
